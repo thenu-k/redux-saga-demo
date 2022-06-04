@@ -9,5 +9,5 @@ export default function* rootSaga(){
 export function* handleSetCount(){
     console.log("Inside the saga!")
 
-    //After this point the 
+    //After this point the middleware will pass over the request to the reducer
 }
